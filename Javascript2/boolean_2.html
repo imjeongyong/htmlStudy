@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <script>
+  // 모두 출력 -> 모두 false 처리됨!!
+    if(!'') {
+      alert('빈 문자열');
+    }
+    if(!undefined) {
+      alert('undefined');
+    }
+    var a;
+    if (!a) {
+      alert('값이 할당되지 않은 변수');
+    }
+    if (!null) {
+      alert('NaN');
+    }
+    if (!(0/0)) {
+      alert('0/0');
+    }
+  </script>
+</body>
+</html>
